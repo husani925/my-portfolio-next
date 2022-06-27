@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.imglogo}
-          src="/humber.jpg"
+          src="/humber-perfil.jpg"
           alt="Humber Sanchez Nieto"
           width={150}
           height={150}
