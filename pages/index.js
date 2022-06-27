@@ -49,11 +49,27 @@ export default function Home() {
           <br />
           <span>{`</ul>`}</span>
         </code>
+        <br />
+        <a
+          href="mailto:hola@humbersanchez.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className={styles.imgemail}>
+            <Image
+              src="/mail.svg"
+              alt="Email Humber Sanchez Nieto"
+              width={40}
+              height={20}
+            />
+            <b>hola@humbersanchez.com</b>
+          </span>
+        </a>
       </main>
 
       <footer className={styles.footer}>
         <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
-          Alojado en
+          Patrocinado por
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
