@@ -56,13 +56,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <span className={styles.imgemail}>
+            👉
             <Image
               src="/mail.svg"
               alt="Email Humber Sanchez Nieto"
               width={40}
               height={20}
             />
-            <b>hola@humbersanchez.com</b>
           </span>
         </a>
       </main>
