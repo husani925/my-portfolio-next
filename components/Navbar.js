@@ -7,12 +7,12 @@ export const Navbar = () => {
     <ul className={styles.listul}>
       <li className={styles.list}>
         <Link href="/">
-          <a>Incio</a>
+          <a>Incio &rarr;</a>
         </Link>
       </li>
       <li className={styles.list}>
         <Link href="/projects">
-          <a>Proyectos</a>
+          <a>Proyectos &rarr;</a>
         </Link>
       </li>
     </ul>
