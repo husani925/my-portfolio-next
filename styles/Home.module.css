@@ -128,6 +128,25 @@
   display: flex;
 }
 
+.listul{
+  margin: 0;
+  padding: 0;
+}
+
+.list{
+  text-align: center;
+  list-style: none;
+  font-weight: 500;
+}
+
+.list:hover{
+  color: #0070f3;
+  text-align: center;
+  list-style: none;
+}
+
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

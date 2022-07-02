@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import { Contact } from "../components/Contact";
+import { Footer } from "../components/Footer";
+import { Navbar } from "../components/NavBar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -50,31 +53,11 @@ export default function Home() {
           <span>{`</ul>`}</span>
         </code>
         <br />
-        <a
-          href="mailto:hola@humbersanchez.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className={styles.imgemail}>
-            👉
-            <Image
-              src="/mail.svg"
-              alt="Email Humber Sanchez Nieto"
-              width={40}
-              height={20}
-            />
-          </span>
-        </a>
+        <Navbar />
+        <br />
+        <Contact />
       </main>
-
-      <footer className={styles.footer}>
-        <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
-          Patrocinado por
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
